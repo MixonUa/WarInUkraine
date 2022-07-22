@@ -65,7 +65,7 @@ class MainViewController: UIViewController {
     
     
     @objc private func personnelButtonPressed() {
-        guard let nextVC = self.storyboard?.instantiateViewController(identifier: "ChosenDayPersonnelViewController") as? ChosenDayPersonnelViewController else { return }
+        guard let nextVC = self.storyboard?.instantiateViewController(identifier: "ChosenDayPersonnelInformationViewController") as? ChosenDayPersonnelInformationViewController else { return }
         let selectedRow = dayPickerView.selectedRow(inComponent: 0)
         
         if let personnel = dataManager.getpersonnellData(for: selectedRow) {

@@ -1,5 +1,5 @@
 //
-//  ChosenDayPersonnelViewController.swift
+//  ChosenDayPersonnelInformationViewController.swift
 //  WarInUkraine
 //
 //  Created by Михаил Фролов on 20.07.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ChosenDayPersonnelViewController: UIViewController {
+class ChosenDayPersonnelInformationViewController: UIViewController {
     @IBOutlet weak var informationContainerView: UIView!
     @IBOutlet weak var titleLabel: UILabel!
     

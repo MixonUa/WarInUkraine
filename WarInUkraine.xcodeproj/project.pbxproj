@@ -16,7 +16,7 @@
 		9327BB21287326EF00798B98 /* PersonnelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327BB20287326EF00798B98 /* PersonnelInfo.swift */; };
 		93571EB328840C3D00FE6765 /* CustomIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93571EB228840C3D00FE6765 /* CustomIconButton.swift */; };
 		93571EBB288451A300FE6765 /* ChosenDayEquipmentInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93571EBA288451A300FE6765 /* ChosenDayEquipmentInformationViewController.swift */; };
-		93646536288958D8006ADFCA /* ChosenDayPersonnelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93646535288958D8006ADFCA /* ChosenDayPersonnelViewController.swift */; };
+		93646536288958D8006ADFCA /* ChosenDayPersonnelInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93646535288958D8006ADFCA /* ChosenDayPersonnelInformationViewController.swift */; };
 		9364653C28898BF6006ADFCA /* EquipmentInformationLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364653B28898BF6006ADFCA /* EquipmentInformationLine.swift */; };
 		9364654028898C19006ADFCA /* PersonnelInformationLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364653F28898C19006ADFCA /* PersonnelInformationLine.swift */; };
 		9365B6F828786E3A004F3497 /* AllPersonnelInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365B6F728786E3A004F3497 /* AllPersonnelInformationViewController.swift */; };
@@ -39,7 +39,7 @@
 		9327BB20287326EF00798B98 /* PersonnelInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelInfo.swift; sourceTree = "<group>"; };
 		93571EB228840C3D00FE6765 /* CustomIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIconButton.swift; sourceTree = "<group>"; };
 		93571EBA288451A300FE6765 /* ChosenDayEquipmentInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenDayEquipmentInformationViewController.swift; sourceTree = "<group>"; };
-		93646535288958D8006ADFCA /* ChosenDayPersonnelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenDayPersonnelViewController.swift; sourceTree = "<group>"; };
+		93646535288958D8006ADFCA /* ChosenDayPersonnelInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenDayPersonnelInformationViewController.swift; sourceTree = "<group>"; };
 		9364653B28898BF6006ADFCA /* EquipmentInformationLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentInformationLine.swift; sourceTree = "<group>"; };
 		9364653F28898C19006ADFCA /* PersonnelInformationLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelInformationLine.swift; sourceTree = "<group>"; };
 		9365B6F728786E3A004F3497 /* AllPersonnelInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPersonnelInformationViewController.swift; sourceTree = "<group>"; };
@@ -83,12 +83,7 @@
 				9327BB1B287325F100798B98 /* Models */,
 				9365B6FA28786EB7004F3497 /* Views */,
 				93F00C322875C34600447485 /* Controllers */,
-				9327BB06287325E700798B98 /* AppDelegate.swift */,
-				9327BB08287325E700798B98 /* SceneDelegate.swift */,
-				9327BB0C287325E700798B98 /* Main.storyboard */,
-				9327BB0F287325E800798B98 /* Assets.xcassets */,
-				9327BB11287325E800798B98 /* LaunchScreen.storyboard */,
-				9327BB14287325E800798B98 /* Info.plist */,
+				936F32B2288A722C00A79C5B /* SupportingFiles */,
 			);
 			path = WarInUkraine;
 			sourceTree = "<group>";
@@ -116,12 +111,25 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		936F32B2288A722C00A79C5B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9327BB0C287325E700798B98 /* Main.storyboard */,
+				9327BB06287325E700798B98 /* AppDelegate.swift */,
+				9327BB11287325E800798B98 /* LaunchScreen.storyboard */,
+				9327BB08287325E700798B98 /* SceneDelegate.swift */,
+				9327BB0F287325E800798B98 /* Assets.xcassets */,
+				9327BB14287325E800798B98 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		93F00C322875C34600447485 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				93F00C332875C36F00447485 /* MainViewController.swift */,
 				9365B6F728786E3A004F3497 /* AllPersonnelInformationViewController.swift */,
-				93646535288958D8006ADFCA /* ChosenDayPersonnelViewController.swift */,
+				93646535288958D8006ADFCA /* ChosenDayPersonnelInformationViewController.swift */,
 				93571EBA288451A300FE6765 /* ChosenDayEquipmentInformationViewController.swift */,
 			);
 			path = Controllers;
@@ -197,7 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93646536288958D8006ADFCA /* ChosenDayPersonnelViewController.swift in Sources */,
+				93646536288958D8006ADFCA /* ChosenDayPersonnelInformationViewController.swift in Sources */,
 				9327BB07287325E700798B98 /* AppDelegate.swift in Sources */,
 				93185A91288021DB002E7CDA /* DataManager.swift in Sources */,
 				93661AF3287481B600936CE8 /* NetworkFetchService.swift in Sources */,
@@ -359,7 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WarInUkraine/Info.plist;
+				INFOPLIST_FILE = WarInUkraine/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,7 +385,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WarInUkraine/Info.plist;
+				INFOPLIST_FILE = WarInUkraine/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

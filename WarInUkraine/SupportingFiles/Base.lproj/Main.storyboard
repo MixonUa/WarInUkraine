@@ -174,10 +174,10 @@
             </objects>
             <point key="canvasLocation" x="939.13043478260875" y="83.705357142857139"/>
         </scene>
-        <!--Chosen Day Personnel View Controller-->
+        <!--Chosen Day Personnel Information View Controller-->
         <scene sceneID="bZ6-PQ-K9b">
             <objects>
-                <viewController storyboardIdentifier="ChosenDayPersonnelViewController" id="8Gb-fV-TfA" customClass="ChosenDayPersonnelViewController" customModule="WarInUkraine" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChosenDayPersonnelInformationViewController" id="8Gb-fV-TfA" customClass="ChosenDayPersonnelInformationViewController" customModule="WarInUkraine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nv6-a6-Umg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
